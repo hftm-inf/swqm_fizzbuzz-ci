@@ -1,0 +1,12 @@
+# Eclipse Core
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Eclipse Core
+.project
+
+# Eclipse Settings
+.settings/
+
+# Maven-Projekt: Target Directory ausschliessen
+target/

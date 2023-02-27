@@ -1,0 +1,13 @@
+stages:
+  - test
+  - integrationTest
+
+maven-test:
+  stage: test
+  script:
+    - mvn test
+    
+maven-integrationTest:
+  stage: integrationTest
+  script:
+    - if [ -n "${INTEGRATION}" ]; then mvn integration-test; fi
