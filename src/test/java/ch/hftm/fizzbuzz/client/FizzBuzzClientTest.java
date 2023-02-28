@@ -8,10 +8,10 @@ import org.junit.jupiter.api.Test;
 
 import ch.hftm.fizzbuzz.service.FizzBuzzService;
 
-public class FizzBuzzClientTest {
+class FizzBuzzClientTest {
 
 	@Test
-	public void pruefeFalscheZeichenfolge() {
+	void pruefeFalscheZeichenfolge() {
 		// Arrange
 		String result;
 		FizzBuzzClient fizzBuzzClient = new FizzBuzzClient();
@@ -26,7 +26,7 @@ public class FizzBuzzClientTest {
 	}
 
 	@Test
-	public void pruefeEinZeichen() {
+	void pruefeEinZeichen() {
 		// Arrange
 		String result;
 		FizzBuzzClient fizzBuzzClient = new FizzBuzzClient();
@@ -42,7 +42,7 @@ public class FizzBuzzClientTest {
 	}
 
 	@Test
-	public void pruefeZeichenfolgeAchtBisNeun() {
+	void pruefeZeichenfolgeAchtBisNeun() {
 		// Arrange
 		String result;
 		FizzBuzzClient fizzBuzzClient = new FizzBuzzClient();

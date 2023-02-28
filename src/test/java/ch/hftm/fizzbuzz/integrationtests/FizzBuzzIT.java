@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 
 import ch.hftm.fizzbuzz.client.FizzBuzzClient;
 
-public class FizzBuzzIT {
+class FizzBuzzIT {
 
 	@Test
-	public void pruefeZeichenfolgeSechsBisElf() {
+	void pruefeZeichenfolgeSechsBisElf() {
 		// Arrange
 		String result;
 		FizzBuzzClient fizzBuzzClient = new FizzBuzzClient();
