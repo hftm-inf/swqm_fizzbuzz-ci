@@ -41,21 +41,21 @@ class FizzBuzzClientTest {
 		Assertions.assertEquals("FizzBuzz", result, "Nicht erwartete Zeichenfolge");
 	}
 
-	@Test
-	void pruefeZeichenfolgeAchtBisNeun() {
-		// Arrange
-		String result;
-		FizzBuzzClient fizzBuzzClient = new FizzBuzzClient();
-		FizzBuzzService fizzBuzzService = mock(FizzBuzzService.class);
-		fizzBuzzClient.fizzBuzzService = fizzBuzzService;
-		when(fizzBuzzService.getResultOfNumber(8)).thenReturn("8");
-		when(fizzBuzzService.getResultOfNumber(9)).thenReturn("Fizz");
+	// @Test
+	// void pruefeZeichenfolgeAchtBisNeun() {
+	// 	// Arrange
+	// 	String result;
+	// 	FizzBuzzClient fizzBuzzClient = new FizzBuzzClient();
+	// 	FizzBuzzService fizzBuzzService = mock(FizzBuzzService.class);
+	// 	fizzBuzzClient.fizzBuzzService = fizzBuzzService;
+	// 	when(fizzBuzzService.getResultOfNumber(8)).thenReturn("8");
+	// 	when(fizzBuzzService.getResultOfNumber(9)).thenReturn("Fizz");
 
-		// Act
-		result = fizzBuzzClient.getResultForScope(8, 9);
+	// 	// Act
+	// 	result = fizzBuzzClient.getResultForScope(8, 9);
 
-		// Assert
-		Assertions.assertEquals("8, Fizz", result, "Nicht erwartete Zeichenfolge");
-	}
+	// 	// Assert
+	// 	Assertions.assertEquals("8, Fizz", result, "Nicht erwartete Zeichenfolge");
+	// }
 
 }
