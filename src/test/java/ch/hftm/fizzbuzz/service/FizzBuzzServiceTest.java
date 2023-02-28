@@ -11,7 +11,7 @@ class FizzBuzzServiceTest {
 			"2, 2, Normale Zahl als Resultat erwartet",
 			"6, Fizz, Fizz bei durch drei teilbare Zahl als Resultat erwartet",
 			"10, Buzz, Buzz bei durch drei teilbare Zahl als Resultat erwartet",
-			"30, FizzBuzz, FizzBuzz bei durch drei und 10 teilbare Zahl als Resultat erwartet",
+			"30, FizzBuzz, FizzBuzz bei durch drei und fünf teilbare Zahl als Resultat erwartet",
 	})
 	void pruefeNormaleZahl(int input, String expected, String message) {
 		String result;

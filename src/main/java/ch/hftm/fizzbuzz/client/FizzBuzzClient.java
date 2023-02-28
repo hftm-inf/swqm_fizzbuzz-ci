@@ -8,7 +8,6 @@ public class FizzBuzzClient {
 
 	public String getResultForScope(int beginn, int end) {
 		String result = "";
-		String nothing;
 		
 		for (int i = beginn; i <= end; i++) {
             result += fizzBuzzService.getResultOfNumber(i) + ", ";
